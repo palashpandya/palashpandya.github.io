@@ -1,6 +1,6 @@
 ---
+title: Palash Pandya | Quantum Researcher
 layout: default
-title: Palash Pandya | Quantum Information & Software Engineering
 ---
 
 # Palash Pandya
