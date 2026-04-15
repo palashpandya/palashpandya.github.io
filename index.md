@@ -6,7 +6,7 @@ layout: default
 # Palash Pandya
 **Interdisciplinary Researcher & Programmer** *Foundational Quantum Information | Software Engineering*
 
-[LinkedIn](https://www.linkedin.com/in/palash-pandya-08a81047/) | [GitHub](https://github.com/palashpandva) | [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
+[LinkedIn](https://www.linkedin.com/in/palash-pandya-08a81047/) | [GitHub](https://github.com/palashpandya) | [Google Scholar](https://scholar.google.com/citations?user=RghaXS0AAAAJ&hl=en)
 
 ---
 
