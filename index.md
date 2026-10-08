@@ -6,7 +6,7 @@ layout: default
 <section class="hero">
 <p class="eyebrow">Foundational quantum information · Computational research</p>
 <h1>Palash Pandya</h1>
-<p class="lede">I am a postdoctoral researcher at the Centre for Theoretical Physics, Polish Academy of Sciences, in Warsaw. I study the mathematical and computational structure of quantum information, with interests spanning entanglement, nonlocality, self-testing, and optimization.</p>
+<p class="lede">I am a postdoctoral researcher at the Centre for Theoretical Physics, Polish Academy of Sciences, in Warsaw. I study quantum information from mathematical and computational perspectives, with interests spanning entanglement, nonlocality, and optimization methods.</p>
 <div class="hero-actions"><a class="button" href="{{ '/research/' | relative_url }}">Explore research →</a><a class="link-arrow" href="{{ '/publications/' | relative_url }}">Selected publications ↗</a></div>
 </section>
 <section class="section">
@@ -16,7 +16,7 @@ layout: default
 <div class="card-grid">
 <article class="card"><div class="meta">01 / Entanglement</div><h3>Absolutely maximally entangled states</h3><p>Existence and construction problems for multipartite entanglement, including connections to quantum error correction and numerical optimization.</p><a href="{{ '/research/ame/' | relative_url }}">Explore AME research →</a></article>
 <article class="card"><div class="meta">02 / Foundations</div><h3>Quantum nonlocality and self-testing</h3><p>Bell inequalities, entanglement certification, and device-independent characterization of quantum systems.</p><a href="{{ '/publications/' | relative_url }}">View related papers →</a></article>
-<article class="card"><div class="meta">03 / Algorithms</div><h3>Computational quantum information</h3><p>Optimization and high-performance computational methods for investigating complex quantum information problems.</p><a href="{{ '/research/' | relative_url }}">Research directions →</a></article>
+<article class="card"><div class="meta">03 / Algorithms</div><h3>Computational quantum information</h3><p>Optimization methods for investigating complex quantum information problems.</p><a href="{{ '/research/' | relative_url }}">Research directions →</a></article>
 </div>
 </section>
 <section class="section two-col">
