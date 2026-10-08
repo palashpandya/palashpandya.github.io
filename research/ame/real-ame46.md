@@ -31,7 +31,7 @@ permalink: /research/ame/real-ame46/
 </figure>
 
 <h2>Why it matters</h2>
-<p>Earlier AME(4,6) constructions used complex coefficients. A real construction was posed as an open question in a <a href="https://arxiv.org/abs/2508.04777">recent review</a>; the existence of an orthogonal two-unitary of order 36 had also been conjectured to be impossible. To our knowledge, this construction gives the first real AME(4,6) state.</p>
+<p>Earlier AME(4,6) constructions used complex coefficients. A real construction was posed as an open question in a <a href="https://arxiv.org/abs/2508.04777">recent review</a>; the existence of an orthogonal two-unitary of order 36 had also been conjectured to be impossible. </p>
 
 <h2>Beyond the example</h2>
 <p>The state is not isolated within the space of complex AME states. The manuscript describes two continuous families passing through it and a classification of related real solutions.</p>
