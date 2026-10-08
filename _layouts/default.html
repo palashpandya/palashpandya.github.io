@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title | escape }} · {% endif %}Palash Pandya</title>
+<meta name="description" content="{{ page.description | default: site.description | default: 'Research in foundational quantum information, entanglement, and computational methods.' | escape }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</head>
+<body>
+<header class="topbar"><div class="shell nav-wrap">
+<a class="wordmark" href="{{ '/' | relative_url }}">Palash Pandya<span class="wordmark-dot">.</span></a>
+<nav aria-label="Main navigation">
+<a href="{{ '/' | relative_url }}">Home</a>
+<a href="{{ '/research/' | relative_url }}">Research</a>
+<a href="{{ '/research/ame/' | relative_url }}">AME states</a>
+<a href="{{ '/publications/' | relative_url }}">Publications</a>
+</nav></div></header>
+<main id="main" class="shell">{{ content }}</main>
+<footer class="site-footer"><div class="shell footer-wrap"><span>Palash Pandya · Quantum information research</span><span><a href="https://github.com/palashpandya">GitHub</a> · <a href="https://scholar.google.com/citations?user=RghaXS0AAAAJ&hl=en">Google Scholar</a> · <a href="https://www.linkedin.com/in/palash-pandya-08a81047/">LinkedIn</a></span></div></footer>
+</body></html>
