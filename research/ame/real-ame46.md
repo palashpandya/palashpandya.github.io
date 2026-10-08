@@ -27,9 +27,9 @@ permalink: /research/ame/real-ame46/
 
 <figure class="ame-figure">
 <div class="ame-diagram-scroll" role="region" aria-label="Schematic diagrams of the three AME(4,6) bipartitions" tabindex="0" style="max-width:100%;overflow-x:auto">
-<img src="{{ '/assets/illustrations/real-ame46-blocks.svg' | relative_url }}" alt="Six schematic matrix diagrams: three 36 by 36 reshapings of the four-party state, followed by their block decompositions into twelve scalar blocks and twelve orthogonal two-by-two blocks." width="960" height="335" loading="lazy" style="display:block;width:100%;min-width:720px;height:auto">
+<img src="{{ '/assets/illustrations/real-ame46-amplitudes.svg' | relative_url }}" alt="Color-coded amplitudes in the three bipartitions of the real AME(4,6) state: upper row shows the coefficient matrix in natural order, and lower row shows twelve 1-by-1 and twelve 2-by-2 orthogonal blocks. Blue means negative one, red means positive one, dark red means positive square root of two, after scaling the coefficients by square root of 72." width="960" height="713" loading="lazy">
 </div>
-<figcaption>The three bipartitions and their common orthogonal block structure. The upper diagrams illustrate the reshapings; the lower diagrams show twelve 1 × 1 blocks and twelve 2 × 2 blocks after suitable permutations. Schematic only; individual coefficients and support positions are not displayed. <a href="{{ '/assets/illustrations/real-ame46-blocks.svg' | relative_url }}" target="_blank" rel="noopener noreferrer">Open full-size diagram ↗</a></figcaption>
+<figcaption>Color-coded amplitudes of \(\sqrt{72}\,\psi\) for the three bipartitions. Blue denotes \(-1\), red \(+1\), dark red \(+\sqrt{2}\), and white zero. The top row shows natural ordering; the bottom row shows the signed orthogonal \(2\times2\) blocks alongside the \(1\times1\) blocks after row and column permutations. <a href="{{ '/assets/illustrations/real-ame46-amplitudes.svg' | relative_url }}" target="_blank" rel="noopener noreferrer">Open full-size figure ↗</a></figcaption>
 </figure>
 
 <h2>Why it matters</h2>
