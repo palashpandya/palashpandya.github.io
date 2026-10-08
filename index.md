@@ -11,8 +11,8 @@ layout: default
 </section>
 <section class="section">
 <p class="eyebrow">Research directions</p>
-<h2>From mathematical structure to computation.</h2>
-<p class="section-intro">I am interested in the foundational questions that define quantum resources, as well as numerical and algorithmic methods that help investigate them.</p>
+<h2>Research interests</h2>
+<p class="section-intro">Some topics I work on, from foundational questions to computational techniques.</p>
 <div class="card-grid">
 <article class="card"><div class="meta">01 / Entanglement</div><h3>Absolutely maximally entangled states</h3><p>Existence and construction problems for multipartite entanglement, including connections to quantum error correction and numerical optimization.</p><a href="{{ '/research/ame/' | relative_url }}">Explore AME research →</a></article>
 <article class="card"><div class="meta">02 / Foundations</div><h3>Quantum nonlocality and self-testing</h3><p>Bell inequalities, entanglement certification, and device-independent characterization of quantum systems.</p><a href="{{ '/publications/' | relative_url }}">View related papers →</a></article>
@@ -34,11 +34,11 @@ layout: default
 <p class="eyebrow">Methods &amp; software</p>
 <h2>Research tools</h2>
 <p>My computational work uses numerical optimization, scientific programming, and machine learning where appropriate to study quantum resources.</p>
-<p>Public software and related work are available via my <a href="https://github.com/palashpandya">GitHub profile</a>. Ongoing unpublished research is not included in the public codebase.</p>
+<p>Some of my code is available on <a href="https://github.com/palashpandya">GitHub</a>.</p>
 </div>
 </section>
 <section class="section">
 <p class="eyebrow">Connect</p>
-<h2>Research and collaboration</h2>
+<h2>Links</h2>
 <p><a href="https://scholar.google.com/citations?user=RghaXS0AAAAJ&hl=en">Google Scholar ↗</a> &nbsp;·&nbsp; <a href="https://github.com/palashpandya">GitHub ↗</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/palash-pandya-08a81047/">LinkedIn ↗</a></p>
 </section>
