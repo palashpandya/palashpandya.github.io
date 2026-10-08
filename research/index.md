@@ -5,8 +5,7 @@ layout: default
 permalink: /research/
 ---
 <section class="page-head">
-<p class="eyebrow">Research</p>
-<h1>Exploring structures and methods.</h1>
+<h1>Research</h1>
 <p class="lede">My work concerns foundational quantum information and computational approaches for quantifying quantum resources.</p>
 </section>
 <section class="section">

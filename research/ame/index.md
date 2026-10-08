@@ -23,6 +23,5 @@ permalink: /research/ame/
 <h2>Selected result: a real AME(4,6) state</h2>
 <p>An explicit real AME(4,6) construction with 60 non-zero coefficients. A manuscript is in preparation.</p>
 <p><a class="link-arrow" href="{{ '/research/ame/real-ame46/' | relative_url }}">Read the short announcement →</a></p>
-<div class="notice"><strong>Publication scope.</strong> Only selected high-level research summaries appear here. Detailed constructions and numerical data will be shared after review; the working repository remains private.</div>
 <p><a class="link-arrow" href="{{ '/research/' | relative_url }}">← All research areas</a></p>
 </article>

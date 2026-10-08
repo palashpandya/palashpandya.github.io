@@ -24,9 +24,9 @@ layout: default
 <p class="eyebrow">Selected research</p>
 <h2>Publications</h2>
 <ul class="text-list">
-<li><em>An elegant proof of self-testing for multipartite Bell inequalities.</em> npj Quantum Information (2023).</li>
-<li><em>Hilbert-Schmidt distance and entanglement witnessing.</em> Physical Review A.</li>
-<li><em>Classifying the simplest Bell inequalities beyond qubits.</em> <a href="https://arxiv.org/abs/2602.08469">arXiv:2602.08469</a>.</li>
+<li><a href="https://arxiv.org/abs/2602.08469"><em>Classifying the simplest Bell inequalities beyond qubits and their applications towards self-testing</em></a>. arXiv:2602.08469 (2026).</li>
+<li><a href="https://doi.org/10.1038/s41534-023-00735-3"><em>An elegant scheme of self-testing for multipartite Bell inequalities</em></a>. npj Quantum Information <strong>9</strong>, 71 (2023).</li>
+<li><a href="https://doi.org/10.1103/PhysRevA.102.012409"><em>Hilbert-Schmidt distance and entanglement witnessing</em></a>. Physical Review A <strong>102</strong>, 012409 (2020).</li>
 </ul>
 <p><a class="link-arrow" href="{{ '/publications/' | relative_url }}">Publication overview →</a></p>
 </div>
