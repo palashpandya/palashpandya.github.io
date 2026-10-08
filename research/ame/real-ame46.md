@@ -25,26 +25,11 @@ permalink: /research/ame/real-ame46/
 <h2>Real coefficients</h2>
 <p>In the computational basis, the normalized state has <strong>30 coefficients equal to \(+1/\sqrt{72}\)</strong>, <strong>18 equal to \(-1/\sqrt{72}\)</strong>, and <strong>12 equal to \(+\sqrt{2}/\sqrt{72}=1/6\)</strong>. The remaining 1,236 of the \(6^4=1296\) coefficients are zero.</p>
 
-<figure class="ame-figure ame-structure">
-<div class="ame-structure-lead">Three bipartitions of the four parties</div>
-<div class="ame-structure-pairings" aria-label="Three bipartitions: 12 versus 34, 13 versus 24, and 14 versus 23">
-<span>12 | 34</span>
-<span>13 | 24</span>
-<span>14 | 23</span>
+<figure class="ame-figure">
+<div class="ame-diagram-scroll" role="region" aria-label="Schematic diagrams of the three AME(4,6) bipartitions" tabindex="0" style="max-width:100%;overflow-x:auto">
+<img src="{{ '/assets/illustrations/real-ame46-blocks.svg' | relative_url }}" alt="Six schematic matrix diagrams: three 36 by 36 reshapings of the four-party state, followed by their block decompositions into twelve scalar blocks and twelve orthogonal two-by-two blocks." width="960" height="335" loading="lazy" style="display:block;width:100%;min-width:720px;height:auto">
 </div>
-<div class="ame-structure-flow">↓ &nbsp; Reshape to 36 × 36; independently permute rows and columns</div>
-<div class="ame-block-types">
-<div class="ame-block-type">
-<div class="ame-block-math">\([1]\)</div>
-<div class="ame-block-label"><strong>12</strong> scalar blocks (1 × 1)</div>
-</div>
-<div class="ame-block-sum" aria-hidden="true">⊕</div>
-<div class="ame-block-type">
-<div class="ame-block-math">\(\frac{1}{\sqrt{2}}\begin{pmatrix}1&1\\1&-1\end{pmatrix}\)</div>
-<div class="ame-block-label"><strong>12</strong> orthogonal blocks (2 × 2)</div>
-</div>
-</div>
-<figcaption>Common block structure of all three reshapings, shown schematically. The 2 × 2 block is one representative signed pattern; the actual blocks may have different signs. No coefficient positions are shown.</figcaption>
+<figcaption>The three bipartitions and their common orthogonal block structure. The upper diagrams illustrate the reshapings; the lower diagrams show twelve 1 × 1 blocks and twelve 2 × 2 blocks after suitable permutations. Schematic only; individual coefficients and support positions are not displayed. <a href="{{ '/assets/illustrations/real-ame46-blocks.svg' | relative_url }}" target="_blank" rel="noopener noreferrer">Open full-size diagram ↗</a></figcaption>
 </figure>
 
 <h2>Why it matters</h2>
