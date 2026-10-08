@@ -23,26 +23,7 @@ permalink: /research/ame/real-ame46/
 <p>The state has <strong>60 non-zero coefficients</strong> in the computational basis. Its amplitudes are real, and the corresponding three \(36\times36\) matrix reshapings are all orthogonal after multiplication by 6. This gives a real orthogonal two-unitary matrix of order 36.</p>
 
 <h2>Real coefficients</h2>
-<p>In the computational basis, the normalized state has three distinct nonzero real coefficients, with the following multiplicities:</p>
-<div class="coeff-chart" aria-label="Counts of nonzero real amplitudes in the AME(4,6) state">
-  <div class="coeff-row">
-    <span class="coeff-value">\(+1/\sqrt{72}\)</span>
-    <span class="coeff-track" aria-hidden="true"><span class="coeff-bar coeff-positive" style="width:100%"></span></span>
-    <strong class="coeff-count">30</strong>
-  </div>
-  <div class="coeff-row">
-    <span class="coeff-value">\(-1/\sqrt{72}\)</span>
-    <span class="coeff-track" aria-hidden="true"><span class="coeff-bar coeff-negative" style="width:60%"></span></span>
-    <strong class="coeff-count">18</strong>
-  </div>
-  <div class="coeff-row">
-    <span class="coeff-value">\(+\sqrt{2}/\sqrt{72}=1/6\)</span>
-    <span class="coeff-track" aria-hidden="true"><span class="coeff-bar coeff-root-two" style="width:40%"></span></span>
-    <strong class="coeff-count">12</strong>
-  </div>
-</div>
-<p>Thus 60 of the \(6^4=1296\) basis amplitudes are nonzero, while the remaining <strong>1,236 coefficients are zero</strong>. The counts give the exact normalization:</p>
-<p>\[30\left(\frac{1}{\sqrt{72}}\right)^2+18\left(\frac{-1}{\sqrt{72}}\right)^2+12\left(\frac{1}{6}\right)^2=\frac{30+18+24}{72}=1.\]</p>
+<p>In the computational basis, the normalized state has <strong>30 coefficients equal to \(+1/\sqrt{72}\)</strong>, <strong>18 equal to \(-1/\sqrt{72}\)</strong>, and <strong>12 equal to \(+\sqrt{2}/\sqrt{72}=1/6\)</strong>. The remaining 1,236 of the \(6^4=1296\) coefficients are zero.</p>
 
 <figure class="ame-figure">
 <img src="{{ '/assets/illustrations/real-ame46-blocks.svg' | relative_url }}" alt="A schematic of the three pairings 12 versus 34, 13 versus 24, and 14 versus 23. Each 36 by 36 orthogonal reshaping can be rearranged into twelve one by one blocks and twelve two by two blocks." width="960" height="335" loading="lazy">
