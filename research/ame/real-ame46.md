@@ -25,26 +25,11 @@ permalink: /research/ame/real-ame46/
 <h2>Real coefficients</h2>
 <p>In the computational basis, the normalized state has <strong>30 coefficients equal to \(+1/\sqrt{72}\)</strong>, <strong>18 equal to \(-1/\sqrt{72}\)</strong>, and <strong>12 equal to \(+\sqrt{2}/\sqrt{72}=1/6\)</strong>. The remaining 1,236 of the \(6^4=1296\) coefficients are zero.</p>
 
-<figure class="ame-figure ame-structure">
-<div class="ame-structure-lead">Three bipartitions of the four parties</div>
-<div class="ame-structure-pairings" aria-label="Three bipartitions: 12 versus 34, 13 versus 24, and 14 versus 23">
-<span>12 | 34</span>
-<span>13 | 24</span>
-<span>14 | 23</span>
+<figure class="ame-figure">
+<div class="ame-diagram-scroll" role="region" aria-label="Schematic diagrams of the three AME(4,6) bipartitions" tabindex="0" style="max-width:100%;overflow-x:auto">
+<img src="{{ '/assets/illustrations/real-ame46-amplitudes.svg' | relative_url }}" alt="Color-coded amplitudes in the three bipartitions of the real AME(4,6) state: upper row shows the coefficient matrix in natural order, and lower row shows twelve 1-by-1 and twelve 2-by-2 orthogonal blocks. Blue means negative one, red means positive one, dark red means positive square root of two, after scaling the coefficients by square root of 72." width="960" height="713" loading="lazy">
 </div>
-<div class="ame-structure-flow">↓ &nbsp; Reshape to 36 × 36; independently permute rows and columns</div>
-<div class="ame-block-types">
-<div class="ame-block-type">
-<div class="ame-block-math">\([1]\)</div>
-<div class="ame-block-label"><strong>12</strong> scalar blocks (1 × 1)</div>
-</div>
-<div class="ame-block-sum" aria-hidden="true">⊕</div>
-<div class="ame-block-type">
-<div class="ame-block-math">\(\frac{1}{\sqrt{2}}\begin{pmatrix}1&1\\1&-1\end{pmatrix}\)</div>
-<div class="ame-block-label"><strong>12</strong> orthogonal blocks (2 × 2)</div>
-</div>
-</div>
-<figcaption>Common block structure of all three reshapings, shown schematically. The 2 × 2 block is one representative signed pattern; the actual blocks may have different signs. No coefficient positions are shown.</figcaption>
+<figcaption>Color-coded amplitudes of \(\sqrt{72}\,\psi\) for the three bipartitions. Blue denotes \(-1\), red \(+1\), dark red \(+\sqrt{2}\), and white zero. The top row shows natural ordering; the bottom row shows the signed orthogonal \(2\times2\) blocks alongside the \(1\times1\) blocks after row and column permutations. <a href="{{ '/assets/illustrations/real-ame46-amplitudes.svg' | relative_url }}" target="_blank" rel="noopener noreferrer">Open full-size figure ↗</a></figcaption>
 </figure>
 
 <h2>Why it matters</h2>
