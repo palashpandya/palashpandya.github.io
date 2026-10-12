@@ -9,6 +9,15 @@ layout: default
 <p class="lede">I am a postdoctoral researcher at the Centre for Theoretical Physics, Polish Academy of Sciences, in Warsaw. I study quantum information from mathematical and computational perspectives, with interests spanning entanglement, nonlocality, and optimization methods.</p>
 <div class="hero-actions"><a class="button" href="{{ '/research/' | relative_url }}">Explore research →</a><a class="link-arrow" href="{{ '/publications/' | relative_url }}">Selected publications ↗</a></div>
 </section>
+<section class="featured-research" aria-labelledby="featured-ame-title">
+<div class="featured-research-header">
+<p class="eyebrow">Featured research · 2026</p>
+<p class="featured-research-status">Manuscript in preparation</p>
+</div>
+<h2 id="featured-ame-title">Real AME(4,6) states</h2>
+<p>A real absolutely maximally entangled state of four six-level systems with 60 nonzero amplitudes and an orthogonal two-unitary block structure. Two associated 60-term families contain 4,096 real states in exactly 20 classes under local unitaries and party permutations.</p>
+<p class="featured-research-links"><a class="link-arrow" href="{{ '/research/ame/real-ame46/' | relative_url }}">Read the research note →</a> <a href="https://github.com/palashpandya/real-ame46">Code and manuscript source ↗</a></p>
+</section>
 <section class="section">
 <p class="eyebrow">Research directions</p>
 <h2>Research interests</h2>
