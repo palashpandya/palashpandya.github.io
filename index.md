@@ -15,7 +15,7 @@ layout: default
 <p class="featured-research-status">Manuscript in preparation</p>
 </div>
 <h2 id="featured-ame-title">Real AME(4,6) states</h2>
-<p>A real absolutely maximally entangled state of four six-level systems with 60 nonzero amplitudes and an orthogonal two-unitary block structure. Two associated 60-term families contain 4,096 real states in exactly 20 classes under local unitaries and party permutations.</p>
+<p>A real absolutely maximally entangled state of four six-level systems with 60 nonzero amplitudes and an orthogonal two-unitary block structure. The two associated 60-term families contain 4,096 real states (counted modulo diagonal local unitaries) in exactly 20 classes under arbitrary local unitaries and party permutations.</p>
 <p class="featured-research-links"><a class="link-arrow" href="{{ '/research/ame/real-ame46/' | relative_url }}">Read the research note →</a> <a href="https://github.com/palashpandya/real-ame46">Code and manuscript source ↗</a></p>
 </section>
 <section class="section">
