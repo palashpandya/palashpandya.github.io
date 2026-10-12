@@ -20,8 +20,8 @@ permalink: /research/ame/
 <p>One diagnostic is the sum of squared deviations from maximal mixing across the relevant bipartitions:</p>
 <p>\[\mathcal L(\psi)=\sum_{|A|=\lfloor n/2\rfloor}\left\|\rho_A-\frac{I}{d^{|A|}}\right\|_F^2.\]</p>
 <p>For normalized pure states, \(\mathcal L(\psi)=0\) if and only if the state is AME. Finding low values numerically is not by itself an existence proof; careful validation is essential.</p>
-<h2>Selected result: a real AME(4,6) state</h2>
-<p>An explicit real AME(4,6) construction with 60 non-zero coefficients. A manuscript is in preparation.</p>
-<p><a class="link-arrow" href="{{ '/research/ame/real-ame46/' | relative_url }}">Read the short announcement →</a></p>
+<h2>Selected research: real AME(4,6) states</h2>
+<p>A 60-term real AME(4,6) construction with a block-orthogonal description, closed-form continuous families, and a classification of 4,096 real states into 20 equivalence classes on two associated supports. The manuscript is in preparation, and <a href="https://github.com/palashpandya/real-ame46">the companion code and data are public</a>.</p>
+<p><a class="link-arrow" href="{{ '/research/ame/real-ame46/' | relative_url }}">Read the research note →</a></p>
 <p><a class="link-arrow" href="{{ '/research/' | relative_url }}">← All research areas</a></p>
 </article>
