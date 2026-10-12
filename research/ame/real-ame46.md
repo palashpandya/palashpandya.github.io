@@ -1,44 +1,50 @@
 ---
-title: A real AME(4,6) state
-description: An unpublished construction of a real absolutely maximally entangled state of four six-level systems.
+title: Real AME(4,6) states
+description: A real 60-term AME(4,6) construction, continuous families and a classification of real states.
 layout: default
 permalink: /research/ame/real-ame46/
 ---
 <section class="page-head">
-<p class="eyebrow">Unpublished result · Manuscript in preparation</p>
-<h1>A real AME(4,6) state</h1>
-<p class="lede">An explicit absolutely maximally entangled state of four six-level quantum systems whose coefficients are all real.</p>
+<p class="eyebrow">Research note · Manuscript in preparation (2026)</p>
+<h1>Real AME(4,6) states</h1>
+<p class="lede">A real solution of Euler's thirty-six officers problem, with a simple orthogonal block structure, continuous families and a classification of related real states.</p>
 </section>
 
 <article class="prose">
 
-<h2>The result</h2>
-<p>We have constructed a real pure state of four six-level systems (quhexes) whose every two-party reduced density matrix is maximally mixed:</p>
+<p>This page summarizes the manuscript <em>Euler's thirty-six officers need not all be entangled: real AME(4,6), families and classification</em>. The <a href="https://github.com/palashpandya/real-ame46">companion repository</a> is public and contains the manuscript source, exact state data and verification scripts.</p>
 
+<h2>The real state</h2>
+<p>We construct a pure state of four six-level systems (quhexes) whose coefficients are real and whose two-party reduced states are all maximally mixed:</p>
 <p>\[
-\rho_{AB}=\frac{I_{36}}{36}
-\qquad \text{for every pair } A,B.
+\rho_{AB}=\frac{I_{36}}{36}\qquad\text{for every pair of parties }A,B.
 \]</p>
 
-<p>The state has <strong>60 non-zero coefficients</strong> in the computational basis. Its amplitudes are real, and the corresponding three \(36\times36\) matrix reshapings are all orthogonal after multiplication by 6. This gives a real orthogonal two-unitary matrix of order 36.</p>
+<p>In the computational basis it has <strong>60 non-zero coefficients</strong>: 30 equal to \(+1/\sqrt{72}\), 18 equal to \(-1/\sqrt{72}\), and 12 equal to \(+\sqrt{2}/\sqrt{72}=1/6\). The other 1,236 coefficients vanish.</p>
 
-<h2>Real coefficients</h2>
-<p>In the computational basis, the normalized state has <strong>30 coefficients equal to \(+1/\sqrt{72}\)</strong>, <strong>18 equal to \(-1/\sqrt{72}\)</strong>, and <strong>12 equal to \(+\sqrt{2}/\sqrt{72}=1/6\)</strong>. The remaining 1,236 of the \(6^4=1296\) coefficients are zero.</p>
+<p>For each of the three bipartitions, the corresponding \(36\times36\) reshaping of \(6\psi\) is real orthogonal. After permuting rows and columns, it consists of <strong>12 scalar \(1\times1\) blocks</strong> and <strong>12 orthogonal \(2\times2\) blocks</strong>. In the thirty-six officers interpretation, this gives 12 classical officers and 24 entangled, two-term officers.</p>
 
 <figure class="ame-figure">
-<div class="ame-diagram-scroll" role="region" aria-label="Schematic diagrams of the three AME(4,6) bipartitions" tabindex="0" style="max-width:100%;overflow-x:auto">
-<img src="{{ '/assets/illustrations/real-ame46-amplitudes.svg' | relative_url }}" alt="Color-coded amplitudes in the three bipartitions of the real AME(4,6) state: upper row shows the coefficient matrix in natural order, and lower row shows twelve 1-by-1 and twelve 2-by-2 orthogonal blocks. Blue means negative one, red means positive one, dark red means positive square root of two, after scaling the coefficients by square root of 72." width="960" height="713" loading="lazy">
+<div class="ame-diagram-scroll" role="region" aria-label="Color-coded amplitudes for the three AME(4,6) bipartitions" tabindex="0">
+<img src="{{ '/assets/illustrations/real-ame46-amplitudes.svg' | relative_url }}" alt="The three color-coded 36-by-36 coefficient matrices in natural order, and beneath them the same matrices permuted into twelve scalar and twelve orthogonal two-by-two blocks. Blue is minus one, red is plus one, and dark red is plus square root of two after scaling by square root of 72." width="960" height="713" loading="lazy">
 </div>
-<figcaption>Color-coded amplitudes of \(\sqrt{72}\,\psi\) for the three bipartitions. Blue denotes \(-1\), red \(+1\), dark red \(+\sqrt{2}\), and white zero. The top row shows natural ordering; the bottom row shows the signed orthogonal \(2\times2\) blocks alongside the \(1\times1\) blocks after row and column permutations. <a href="{{ '/assets/illustrations/real-ame46-amplitudes.svg' | relative_url }}" target="_blank" rel="noopener noreferrer">Open full-size figure ↗</a></figcaption>
+<figcaption>The three reshapings of \(\sqrt{72}\,\psi\). Blue denotes \(-1\), red \(+1\), dark red \(+\sqrt{2}\), and white zero. The lower row makes the \(1\times1\) and \(2\times2\) orthogonal blocks visible. <a href="{{ '/assets/illustrations/real-ame46-amplitudes.svg' | relative_url }}" target="_blank" rel="noopener noreferrer">Open the full-size figure ↗</a></figcaption>
 </figure>
 
-<h2>Why it matters</h2>
-<p>Earlier AME(4,6) constructions used complex coefficients. A real construction was posed as an open question in a <a href="https://arxiv.org/abs/2508.04777">recent review</a>; the existence of an orthogonal two-unitary of order 36 had also been conjectured to be impossible. </p>
+<h2>Continuous families and real-state classification</h2>
+<p>The construction lies at the boundary of a <strong>72-term family</strong> of AME(4,6) states, with two complex-conjugate components, each having 10 parameters modulo diagonal local unitaries. Some members have uniform non-zero amplitude magnitudes. At the two endpoints, the support drops to 60 terms, giving two 11-parameter families.</p>
 
-<h2>Beyond the example</h2>
-<p>The state is not isolated within the space of complex AME states. The manuscript describes two continuous families passing through it and a classification of related real solutions.</p>
+<p>On these two 60-term supports there are <strong>4,096 real AME states</strong>, counted up to diagonal local unitaries. Of these, 1,024 are limits of the 72-term family. Under arbitrary local unitaries and permutations of the parties, the real states fall into <strong>exactly 20 equivalence classes</strong>: eight on one support and twelve on the other. The separation of the classes is certified using interval arithmetic.</p>
 
-<div class="notice"><strong>To be published soon.</strong> This result is currently unpublished. The explicit state, proof, and details of the families will be presented in the forthcoming manuscript.</div>
+<h2>How the construction arose</h2>
+<p>The state emerged from a search restricted to an eigenspace of a finite-order local symmetry, \(u^{\otimes4}\), with \(u=\operatorname{diag}(i,-1,-1,-i,-i,-i)\). Minimizing the support in suitable local frames led to a 72-term orthogonal array of strength two. On this support, the AME conditions reduce to equations linear in squared amplitudes and phase congruences, yielding the closed-form families and their real boundary states.</p>
+
+<h2>Context and materials</h2>
+<p>Whether a real AME(4,6) state exists was posed as an open problem in a <a href="https://arxiv.org/abs/2508.04777">2026 review</a>. Independent real constructions have also been announced by Bruzda, Rather, and Hontarenko and Życzkowski, as acknowledged in the current manuscript. This work develops the 60-term construction, its classical-officer structure, continuous families and classification on the two associated supports.</p>
+
+<p>The <a href="https://github.com/palashpandya/real-ame46/blob/main/paper/main.tex">manuscript source</a>, <a href="https://github.com/palashpandya/real-ame46/tree/main/results">verification results</a>, and <a href="https://github.com/palashpandya/real-ame46/tree/v1.0">version 1.0 of the companion code and data</a> are available on GitHub. Exact arithmetic establishes the state and the family relations; the classification also includes certified interval-arithmetic calculations.</p>
+
+<div class="notice"><strong>To be published soon.</strong> The manuscript is in preparation. The article reference will be added when available; the research code, data and draft source are already public.</div>
 
 <p><a class="link-arrow" href="{{ '/research/ame/' | relative_url }}">← Back to AME research</a></p>
 
