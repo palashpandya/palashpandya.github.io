@@ -49,6 +49,14 @@ permalink: /research/ame/real-ame46/
 
 <div class="notice"><strong>Preprint available.</strong> Palash Pandya, <em>Euler's thirty-six officers need not all be entangled: real AME(4,6), families and classification</em>, <a href="https://arxiv.org/abs/2610.16673">arXiv:2610.16673</a> (2026; submitted 12 October 2026).</div>
 
+<h2>Independent real AME(4,6) constructions</h2>
+<p>Independent real AME(4,6) constructions have also been reported in the following works:</p>
+<ul class="text-list">
+<li>W. Bruzda, <a href="https://arxiv.org/abs/2610.16882"><em>Geomagic Square Representation of a Real AME(4,6) State</em></a>, arXiv:2610.16882 (2026).</li>
+<li>M. Hontarenko and K. Życzkowski, <a href="https://arxiv.org/abs/2610.17170"><em>Fractional and quantum Latin squares: real solutions of quantum 36 officers problem</em></a>, arXiv:2610.17170 (2026).</li>
+<li>S. A. Rather, <a href="https://github.com/suhailahmadrather/Real-AME-4-6-state"><em>Real AME(4,6) state</em></a> (2026), public construction repository; manuscript forthcoming.</li>
+</ul>
+
 <p><a class="link-arrow" href="{{ '/research/ame/' | relative_url }}">← Back to AME research</a></p>
 
 </article>
