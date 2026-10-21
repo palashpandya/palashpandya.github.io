@@ -16,7 +16,7 @@ last_modified_at: 2026-10-21
 <article class="featured-research" aria-labelledby="featured-coupled-title">
 <div class="featured-research-header">
 <p class="eyebrow">New AME families · 2026</p>
-<p class="featured-research-status">Manuscript in preparation</p>
+<p class="featured-research-status"><a href="https://arxiv.org/abs/2610.16673">arXiv:2610.16673</a></p>
 </div>
 <h2 id="featured-coupled-title">Coupled-branch constructions</h2>
 <p>Previously unreported AME families for 13, 15 and 17 parties, constructed using an established coupling method. Includes eight exactly certified examples, among them AME(15,26), and infinite families at local dimensions twice a prime.</p>
