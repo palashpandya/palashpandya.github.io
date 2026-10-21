@@ -2,10 +2,13 @@
 title: Research
 description: Research directions in quantum information and computation.
 layout: default
+date_created: 2026-10-08
+last_modified_at: 2026-10-21
 permalink: /research/
 ---
 <section class="page-head">
 <h1>Research</h1>
+{% include page-dates.html %}
 <p class="lede">My work concerns foundational quantum information and computational approaches for quantifying quantum resources.</p>
 </section>
 <section class="section">

@@ -1,0 +1,7 @@
+{% if page.date_created or page.last_modified_at %}
+<p class="page-dates">
+  {% if page.date_created %}<span>Created: <time datetime="{{ page.date_created | date: '%Y-%m-%d' }}">{{ page.date_created | date: '%-d %B %Y' }}</time></span>{% endif %}
+  {% if page.date_created and page.last_modified_at %}<span class="page-dates-separator" aria-hidden="true">·</span>{% endif %}
+  {% if page.last_modified_at %}<span>Last updated: <time datetime="{{ page.last_modified_at | date: '%Y-%m-%d' }}">{{ page.last_modified_at | date: '%-d %B %Y' }}</time></span>{% endif %}
+</p>
+{% endif %}

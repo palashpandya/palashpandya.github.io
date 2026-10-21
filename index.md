@@ -2,22 +2,36 @@
 title: Quantum Information Research
 description: Palash Pandya — foundational quantum information, entanglement, nonlocality, and computational research.
 layout: default
+date_created: 2026-03-16
+last_modified_at: 2026-10-21
 ---
 <section class="hero">
 <p class="eyebrow">Foundational quantum information · Computational research</p>
 <h1>Palash Pandya</h1>
+{% include page-dates.html %}
 <p class="lede">I am a postdoctoral researcher at the Centre for Theoretical Physics, Polish Academy of Sciences, in Warsaw. I study quantum information from mathematical and computational perspectives, with interests spanning entanglement, nonlocality, and optimization methods.</p>
 <div class="hero-actions"><a class="button" href="{{ '/research/' | relative_url }}">Explore research →</a><a class="link-arrow" href="{{ '/publications/' | relative_url }}">Selected publications ↗</a></div>
 </section>
-<section class="featured-research" aria-labelledby="featured-ame-title">
+<div class="featured-research-grid">
+<article class="featured-research" aria-labelledby="featured-coupled-title">
 <div class="featured-research-header">
-<p class="eyebrow">Featured research · 2026</p>
+<p class="eyebrow">New AME families · 2026</p>
+<p class="featured-research-status">Manuscript in preparation</p>
+</div>
+<h2 id="featured-coupled-title">Coupled-branch constructions</h2>
+<p>Previously unreported AME families for 13, 15 and 17 parties, constructed using an established coupling method. Includes eight exactly certified examples, among them AME(15,26), and infinite families at local dimensions twice a prime.</p>
+<p class="featured-research-links"><a class="link-arrow" href="{{ '/research/ame/coupled-branch-families/' | relative_url }}">Read the research note →</a></p>
+</article>
+<article class="featured-research" aria-labelledby="featured-ame-title">
+<div class="featured-research-header">
+<p class="eyebrow">Real AME(4,6) · 2026</p>
 <p class="featured-research-status">Manuscript in preparation</p>
 </div>
 <h2 id="featured-ame-title">Real AME(4,6) states</h2>
-<p>A real absolutely maximally entangled state of four six-level systems with 60 nonzero amplitudes and an orthogonal two-unitary block structure. The two associated 60-term families contain 4,096 real states (counted modulo diagonal local unitaries) in exactly 20 classes under arbitrary local unitaries and party permutations.</p>
+<p>A 60-term real AME(4,6) construction with an orthogonal two-unitary block structure. Two associated 60-term families contain 4,096 real states (counted modulo diagonal local unitaries), classified into 20 LU/permutation classes.</p>
 <p class="featured-research-links"><a class="link-arrow" href="{{ '/research/ame/real-ame46/' | relative_url }}">Read the research note →</a> <a href="https://github.com/palashpandya/real-ame46">Code and manuscript source ↗</a></p>
-</section>
+</article>
+</div>
 <section class="section">
 <p class="eyebrow">Research directions</p>
 <h2>Research interests</h2>

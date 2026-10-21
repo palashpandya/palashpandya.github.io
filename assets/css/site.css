@@ -25,3 +25,22 @@ main{min-height:70vh;padding:34px 0 72px}h1,h2,h3{line-height:1.22;letter-spacin
 .featured-research>p:not(.eyebrow){max-width:860px}
 .featured-research-links{display:flex;align-items:center;gap:12px 25px;flex-wrap:wrap;margin:7px 0 0;font-size:.93rem}
 @media(max-width:600px){.featured-research{padding:18px 17px;margin-top:22px}.featured-research h2{font-size:1.3rem}}
+
+/* Publication dates immediately below each page heading. */
+.page-dates{display:flex;flex-wrap:wrap;align-items:center;gap:5px 11px;margin:-5px 0 18px;font-size:.79rem;line-height:1.5;color:var(--muted);font-variant-numeric:tabular-nums}
+.page-dates-separator{color:#91a0ab}
+.hero .page-dates{margin-top:-10px}
+.page-head .page-dates{margin-top:-8px;margin-bottom:16px}
+/* Recent research cards: compact, equal-weight columns on desktop. */
+.featured-research-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:26px 0 12px}
+.featured-research-grid .featured-research{margin:0;padding:21px 23px;min-width:0}
+.featured-research-grid .featured-research h2{font-size:1.28rem}
+.featured-research-grid .featured-research>p{font-size:.95rem}
+.featured-research-grid .featured-research-links{font-size:.9rem}
+/* Compact family table, with horizontal scrolling when necessary. */
+.family-equations{margin:12px 0 20px;overflow-x:auto}
+.research-table-wrap{overflow-x:auto;margin:15px 0 22px}
+.research-table{border-collapse:collapse;width:100%;max-width:720px;min-width:460px;font-size:.94rem}
+.research-table th,.research-table td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line)}
+.research-table thead th{font-weight:700;background:var(--paper)}
+@media(max-width:740px){.featured-research-grid{grid-template-columns:1fr}.featured-research-grid .featured-research{padding:18px 19px}}
