@@ -2,11 +2,14 @@
 title: Real AME(4,6) states
 description: A real 60-term AME(4,6) construction, continuous families and a classification of real states.
 layout: default
+date_created: 2026-10-08
+last_modified_at: 2026-10-21
 permalink: /research/ame/real-ame46/
 ---
 <section class="page-head">
 <p class="eyebrow">Research note · Manuscript in preparation (2026)</p>
 <h1>Real AME(4,6) states</h1>
+{% include page-dates.html %}
 <p class="lede">A real solution of Euler's thirty-six officers problem, with a simple orthogonal block structure, continuous families and a classification of related real states.</p>
 </section>
 
