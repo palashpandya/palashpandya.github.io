@@ -2,11 +2,14 @@
 title: Absolutely maximally entangled states
 description: Definitions and selected public research on AME states.
 layout: default
+date_created: 2026-10-08
+last_modified_at: 2026-10-21
 permalink: /research/ame/
 ---
 <section class="page-head">
 <p class="eyebrow">Research / Multipartite entanglement</p>
 <h1>Absolutely maximally entangled states</h1>
+{% include page-dates.html %}
 <p class="lede">Mathematical structures at the intersection of multipartite entanglement, quantum error correction, and numerical optimization.</p>
 </section>
 <article class="prose">
