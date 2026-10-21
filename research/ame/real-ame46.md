@@ -7,7 +7,7 @@ last_modified_at: 2026-10-21
 permalink: /research/ame/real-ame46/
 ---
 <section class="page-head">
-<p class="eyebrow">Research note · Manuscript in preparation (2026)</p>
+<p class="eyebrow">Research preprint · <a href="https://arxiv.org/abs/2610.16673">arXiv:2610.16673</a></p>
 <h1>Real AME(4,6) states</h1>
 {% include page-dates.html %}
 <p class="lede">A real solution of Euler's thirty-six officers problem, with a simple orthogonal block structure, continuous families and a classification of related real states.</p>
@@ -15,7 +15,7 @@ permalink: /research/ame/real-ame46/
 
 <article class="prose">
 
-<p>This page summarizes the manuscript <em>Euler's thirty-six officers need not all be entangled: real AME(4,6), families and classification</em>. The <a href="https://github.com/palashpandya/real-ame46">companion repository</a> is public and contains the manuscript source, exact state data and verification scripts.</p>
+<p>This page summarizes the preprint <em>Euler's thirty-six officers need not all be entangled: real AME(4,6), families and classification</em>. The <a href="https://github.com/palashpandya/real-ame46">companion repository</a> is public and contains the manuscript source, exact state data and verification scripts.</p>
 
 <h2>The real state</h2>
 <p>We construct a pure state of four six-level systems (quhexes) whose coefficients are real and whose two-party reduced states are all maximally mixed:</p>
@@ -43,11 +43,19 @@ permalink: /research/ame/real-ame46/
 <p>The state emerged from a search restricted to an eigenspace of a finite-order local symmetry, \(u^{\otimes4}\), with \(u=\operatorname{diag}(i,-1,-1,-i,-i,-i)\). Minimizing the support in suitable local frames led to a 72-term orthogonal array of strength two. On this support, the AME conditions reduce to equations linear in squared amplitudes and phase congruences, yielding the closed-form families and their real boundary states.</p>
 
 <h2>Context and materials</h2>
-<p>Whether a real AME(4,6) state exists was posed as an open problem in a <a href="https://arxiv.org/abs/2508.04777">2026 review</a>. Independent real constructions have also been announced by W. Bruzda, S. A. Rather, and jointly by M. Hontarenko and K. Życzkowski, as acknowledged in the current manuscript. This work develops the 60-term construction, its classical-officer structure, continuous families and classification on the two associated supports.</p>
+<p>Whether a real AME(4,6) state exists was posed as an open problem in a <a href="https://arxiv.org/abs/2508.04777">2026 review</a>. Independent real constructions have also been announced by W. Bruzda, S. A. Rather, and jointly by M. Hontarenko and K. Życzkowski, as acknowledged in the preprint. This work develops the 60-term construction, its classical-officer structure, continuous families and classification on the two associated supports.</p>
 
 <p>The <a href="https://github.com/palashpandya/real-ame46/blob/main/README.md">updated technical report</a>, <a href="https://github.com/palashpandya/real-ame46/blob/main/paper/main.tex">manuscript source</a>, <a href="https://github.com/palashpandya/real-ame46/tree/main/results">verification results</a>, and <a href="https://github.com/palashpandya/real-ame46/tree/v1.0">version 1.0 of the companion code and data</a> are available on GitHub. Exact arithmetic establishes the state and the family relations; the classification also includes certified interval-arithmetic calculations.</p>
 
-<div class="notice"><strong>To be published soon.</strong> The manuscript is in preparation. The article reference will be added when available; the research code, data and draft source are already public.</div>
+<div class="notice"><strong>Preprint available.</strong> Palash Pandya, <em>Euler's thirty-six officers need not all be entangled: real AME(4,6), families and classification</em>, <a href="https://arxiv.org/abs/2610.16673">arXiv:2610.16673</a> (2026; submitted 12 October 2026).</div>
+
+<h2>Independent real AME(4,6) constructions</h2>
+<p>Independent real AME(4,6) constructions have also been reported in the following works:</p>
+<ul class="text-list">
+<li>W. Bruzda, <a href="https://arxiv.org/abs/2610.16882"><em>Geomagic Square Representation of a Real AME(4,6) State</em></a>, arXiv:2610.16882 (2026).</li>
+<li>M. Hontarenko and K. Życzkowski, <a href="https://arxiv.org/abs/2610.17170"><em>Fractional and quantum Latin squares: real solutions of quantum 36 officers problem</em></a>, arXiv:2610.17170 (2026).</li>
+<li>S. A. Rather, <a href="https://github.com/suhailahmadrather/Real-AME-4-6-state"><em>Real AME(4,6) state</em></a> (2026), public construction repository; manuscript forthcoming.</li>
+</ul>
 
 <p><a class="link-arrow" href="{{ '/research/ame/' | relative_url }}">← Back to AME research</a></p>
 
