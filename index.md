@@ -2,10 +2,13 @@
 title: Quantum Information Research
 description: Palash Pandya — foundational quantum information, entanglement, nonlocality, and computational research.
 layout: default
+date_created: 2026-03-16
+last_modified_at: 2026-10-21
 ---
 <section class="hero">
 <p class="eyebrow">Foundational quantum information · Computational research</p>
 <h1>Palash Pandya</h1>
+{% include page-dates.html %}
 <p class="lede">I am a postdoctoral researcher at the Centre for Theoretical Physics, Polish Academy of Sciences, in Warsaw. I study quantum information from mathematical and computational perspectives, with interests spanning entanglement, nonlocality, and optimization methods.</p>
 <div class="hero-actions"><a class="button" href="{{ '/research/' | relative_url }}">Explore research →</a><a class="link-arrow" href="{{ '/publications/' | relative_url }}">Selected publications ↗</a></div>
 </section>
