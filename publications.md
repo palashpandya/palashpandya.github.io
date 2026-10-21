@@ -2,11 +2,14 @@
 title: Publications
 description: Selected publications and research profiles.
 layout: default
+date_created: 2026-10-08
+last_modified_at: 2026-10-21
 permalink: /publications/
 ---
 <section class="page-head">
 <p class="eyebrow">Research output</p>
 <h1>Selected publications</h1>
+{% include page-dates.html %}
 <p class="lede">For a complete and current list, see <a href="https://scholar.google.com/citations?user=RghaXS0AAAAJ&hl=en">Google Scholar</a>.</p>
 </section>
 <article class="prose">
