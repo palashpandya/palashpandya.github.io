@@ -3,7 +3,7 @@ title: Quantum Information Research
 description: Palash Pandya — foundational quantum information, entanglement, nonlocality, and computational research.
 layout: default
 date_created: 2026-03-16
-last_modified_at: 2026-10-21
+last_modified_at: 2026-10-25
 ---
 <section class="hero">
 <p class="eyebrow">Foundational quantum information · Computational research</p>
@@ -15,11 +15,11 @@ last_modified_at: 2026-10-21
 <div class="featured-research-grid">
 <article class="featured-research" aria-labelledby="featured-coupled-title">
 <div class="featured-research-header">
-<p class="eyebrow">New AME families · 2026</p>
+<p class="eyebrow">Coupled-branch AME families · 2026</p>
 <p class="featured-research-status">Manuscript in preparation</p>
 </div>
 <h2 id="featured-coupled-title">Coupled-branch constructions</h2>
-<p>Previously unreported AME families for 13, 15 and 17 parties, constructed using an established coupling method. Includes eight exactly certified examples, among them AME(15,26), and infinite families at local dimensions twice a prime.</p>
+<p>Explicit AME families for 9, 11, 13, 15 and 17 parties in dimensions twice an odd prime power. Includes AME(15,18), exact certificates for 23 coupled examples, and a nine-party existence result covering every local dimension from three.</p>
 <p class="featured-research-links"><a class="link-arrow" href="{{ '/research/ame/coupled-branch-families/' | relative_url }}">Read the research note →</a></p>
 </article>
 <article class="featured-research" aria-labelledby="featured-ame-title">
@@ -65,3 +65,4 @@ last_modified_at: 2026-10-21
 <h2>Links</h2>
 <p><a href="https://scholar.google.com/citations?user=RghaXS0AAAAJ&hl=en">Google Scholar ↗</a> &nbsp;·&nbsp; <a href="https://github.com/palashpandya">GitHub ↗</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/palash-pandya-08a81047/">LinkedIn ↗</a></p>
 </section>
+

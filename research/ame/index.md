@@ -3,7 +3,7 @@ title: Absolutely maximally entangled states
 description: Definitions and selected public research on AME states.
 layout: default
 date_created: 2026-10-08
-last_modified_at: 2026-10-21
+last_modified_at: 2026-10-25
 permalink: /research/ame/
 ---
 <section class="page-head">
@@ -24,7 +24,7 @@ permalink: /research/ame/
 <p>\[\mathcal L(\psi)=\sum_{|A|=\lfloor n/2\rfloor}\left\|\rho_A-\frac{I}{d^{|A|}}\right\|_F^2.\]</p>
 <p>For normalized pure states, \(\mathcal L(\psi)=0\) if and only if the state is AME. Finding low values numerically is not by itself an existence proof; careful validation is essential.</p>
 <h2>Coupled-branch AME families (2026)</h2>
-<p>Previously unreported families of AME(13,2p), AME(15,2p), and AME(17,2p) states using an established coupling approach. The constructions include eight exactly certified examples and the exceptional AME(15,26) state. Manuscript in preparation.</p>
+<p>Explicit AME(N,2q) families for N = 9, 11, 13, 15 and 17, with q an odd prime power in the stated ranges. The companion work records 23 exactly certified coupled examples, including AME(15,18), and symmetric realizations. Together with existing inputs, the nine-party constructions establish AME(9,d) existence for every integer d ≥ 3. Manuscript in preparation.</p>
 <p><a class="link-arrow" href="{{ '/research/ame/coupled-branch-families/' | relative_url }}">Read the coupled-branch note →</a></p>
 <h2>Selected research: real AME(4,6) states</h2>
 <p>A 60-term real AME(4,6) construction with a block-orthogonal description, closed-form continuous families, and a classification of 4,096 real states into 20 equivalence classes on two associated supports. Preprint: <a href="https://arxiv.org/abs/2610.16673">arXiv:2610.16673</a> (2026). The <a href="https://github.com/palashpandya/real-ame46">companion code and data are public</a>.</p>
