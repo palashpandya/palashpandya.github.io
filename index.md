@@ -3,7 +3,7 @@ title: Quantum Information Research
 description: Palash Pandya — foundational quantum information, entanglement, nonlocality, and computational research.
 layout: default
 date_created: 2026-03-16
-last_modified_at: 2026-10-25
+last_modified_at: 2026-11-09
 ---
 <section class="hero">
 <p class="eyebrow">Foundational quantum information · Computational research</p>
@@ -12,6 +12,15 @@ last_modified_at: 2026-10-25
 <p class="lede">I am a postdoctoral researcher at the Centre for Theoretical Physics, Polish Academy of Sciences, in Warsaw. I study quantum information from mathematical and computational perspectives, with interests spanning entanglement, nonlocality, and optimization methods.</p>
 <div class="hero-actions"><a class="button" href="{{ '/research/' | relative_url }}">Explore research →</a><a class="link-arrow" href="{{ '/publications/' | relative_url }}">Selected publications ↗</a></div>
 </section>
+<article class="featured-research" aria-labelledby="featured-mixed-phase-title">
+<div class="featured-research-header">
+<p class="eyebrow">Mixed-phase AME(9,6) and AME(7,6) · 2026</p>
+<p class="featured-research-status">Manuscript in preparation</p>
+</div>
+<h2 id="featured-mixed-phase-title">Inequivalent states and continuous families</h2>
+<p>A mixed binary/ternary phase constructor gives 313 exactly certified state records in local dimension six. Exact local-unitary invariants distinguish classes, while explicit continuous families reveal deformations of seven- and nine-party AME states.</p>
+<p class="featured-research-links"><a class="link-arrow" href="{{ '/research/ame/mixed-phase-ame6/' | relative_url }}">Read the mixed-phase research note →</a></p>
+</article>
 <div class="featured-research-grid">
 <article class="featured-research" aria-labelledby="featured-coupled-title">
 <div class="featured-research-header">
@@ -65,4 +74,3 @@ last_modified_at: 2026-10-25
 <h2>Links</h2>
 <p><a href="https://scholar.google.com/citations?user=RghaXS0AAAAJ&hl=en">Google Scholar ↗</a> &nbsp;·&nbsp; <a href="https://github.com/palashpandya">GitHub ↗</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/palash-pandya-08a81047/">LinkedIn ↗</a></p>
 </section>
-

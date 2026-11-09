@@ -3,7 +3,7 @@ title: Absolutely maximally entangled states
 description: Definitions and selected public research on AME states.
 layout: default
 date_created: 2026-10-08
-last_modified_at: 2026-10-25
+last_modified_at: 2026-11-09
 permalink: /research/ame/
 ---
 <section class="page-head">
@@ -23,6 +23,9 @@ permalink: /research/ame/
 <p>One diagnostic is the sum of squared deviations from maximal mixing across the relevant bipartitions:</p>
 <p>\[\mathcal L(\psi)=\sum_{|A|=\lfloor n/2\rfloor}\left\|\rho_A-\frac{I}{d^{|A|}}\right\|_F^2.\]</p>
 <p>For normalized pure states, \(\mathcal L(\psi)=0\) if and only if the state is AME. Finding low values numerically is not by itself an existence proof; careful validation is essential.</p>
+<h2>Mixed-phase AME(9,6) and AME(7,6) states (2026)</h2>
+<p>A mixed binary/ternary phase constructor produces 313 exactly certified state records: 213 AME(9,6) states and 100 AME(7,6) states. Exact local-unitary invariants distinguish 19 seed-507 nine-party states and at least 99 seven-party classes. The project also gives explicit continuous families and studies which phase deformations preserve the AME conditions. Manuscript in preparation.</p>
+<p><a class="link-arrow" href="{{ '/research/ame/mixed-phase-ame6/' | relative_url }}">Read the mixed-phase research note →</a></p>
 <h2>Coupled-branch AME families (2026)</h2>
 <p>Explicit AME(N,2q) families for N = 9, 11, 13, 15 and 17, with q an odd prime power in the stated ranges. The companion work records 23 exactly certified coupled examples, including AME(15,18), and symmetric realizations. Together with existing inputs, the nine-party constructions establish AME(9,d) existence for every integer d ≥ 3. Manuscript in preparation.</p>
 <p><a class="link-arrow" href="{{ '/research/ame/coupled-branch-families/' | relative_url }}">Read the coupled-branch note →</a></p>
