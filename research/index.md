@@ -3,13 +3,22 @@ title: Research
 description: Research directions in quantum information and computation.
 layout: default
 date_created: 2026-10-08
-last_modified_at: 2026-10-21
+last_modified_at: 2026-11-23
 permalink: /research/
 ---
 <section class="page-head">
 <h1>Research</h1>
 {% include page-dates.html %}
 <p class="lede">My work concerns foundational quantum information and computational approaches for quantifying quantum resources.</p>
+</section>
+<section class="section">
+<p class="eyebrow">Research announcements · 2026</p>
+<h2>Recent preprints</h2>
+<ul class="text-list">
+<li><a href="{{ '/research/ame/coupled-branch-families/' | relative_url }}"><em>Explicit Absolutely Maximally Entangled states in dimensions twice a prime power</em></a> — <a href="https://arxiv.org/abs/2611.17216">arXiv:2611.17216</a> (November 2026). Explicit coupled-branch families and the nine-party existence classification.</li>
+<li><a href="{{ '/research/ame/real-ame46/' | relative_url }}"><em>Euler's thirty-six officers need not all be entangled: real AME(4,6), families and classification</em></a> — <a href="https://arxiv.org/abs/2610.16673">arXiv:2610.16673</a> (October 2026; revised November).</li>
+</ul>
+<p>The <a href="{{ '/research/ame/mixed-phase-ame6/' | relative_url }}">mixed-phase AME(7,6)/AME(9,6) project</a> remains a manuscript in preparation.</p>
 </section>
 <section class="section">
 <div class="card-grid">
