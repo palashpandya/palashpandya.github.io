@@ -3,7 +3,7 @@ title: Quantum Information Research
 description: Palash Pandya — foundational quantum information, entanglement, nonlocality, and computational research.
 layout: default
 date_created: 2026-03-16
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-23
 ---
 <section class="hero">
 <p class="eyebrow">Foundational quantum information · Computational research</p>
@@ -25,11 +25,11 @@ last_modified_at: 2026-11-09
 <article class="featured-research" aria-labelledby="featured-coupled-title">
 <div class="featured-research-header">
 <p class="eyebrow">Coupled-branch AME families · 2026</p>
-<p class="featured-research-status">Manuscript in preparation</p>
+<p class="featured-research-status"><a href="https://arxiv.org/abs/2611.17216">arXiv:2611.17216</a></p>
 </div>
 <h2 id="featured-coupled-title">Coupled-branch constructions</h2>
 <p>Explicit AME families for 9, 11, 13, 15 and 17 parties in dimensions twice an odd prime power. Includes AME(15,18), exact certificates for 23 coupled examples, and a nine-party existence result covering every local dimension from three.</p>
-<p class="featured-research-links"><a class="link-arrow" href="{{ '/research/ame/coupled-branch-families/' | relative_url }}">Read the research note →</a></p>
+<p class="featured-research-links"><a class="link-arrow" href="{{ '/research/ame/coupled-branch-families/' | relative_url }}">Read the research note →</a> <a href="https://arxiv.org/abs/2611.17216">Preprint ↗</a></p>
 </article>
 <article class="featured-research" aria-labelledby="featured-ame-title">
 <div class="featured-research-header">
