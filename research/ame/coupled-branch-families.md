@@ -4,10 +4,10 @@ description: Explicit AME families for 9, 11, 13, 15 and 17 parties in dimension
 layout: default
 permalink: /research/ame/coupled-branch-families/
 date_created: 2026-10-21
-last_modified_at: 2026-10-25
+last_modified_at: 2026-11-23
 ---
 <section class="page-head">
-<p class="eyebrow">Research note · Manuscript in preparation</p>
+<p class="eyebrow">Research preprint · <a href="https://arxiv.org/abs/2611.17216">arXiv:2611.17216</a></p>
 <h1>Coupled-branch families of AME states</h1>
 {% include page-dates.html %}
 <p class="lede">Explicit AME families for 9, 11, 13, 15 and 17 parties in dimensions twice an odd prime power, obtained by coupling binary and finite-field quantum systems.</p>
@@ -15,7 +15,7 @@ last_modified_at: 2026-10-25
 
 <article class="prose">
 
-<p>This note summarizes the constructions and certificates accompanying <em>Explicit absolutely maximally entangled states in dimensions twice a prime power</em>, a manuscript in preparation. The current results extend the original announcement to five families and include \(\operatorname{AME}(15,18)\).</p>
+<p>This note summarizes the constructions and certificates accompanying <a href="https://arxiv.org/abs/2611.17216"><em>Explicit Absolutely Maximally Entangled states in dimensions twice a prime power</em></a>, available as arXiv:2611.17216 (2026; v2, 13 November). The current results extend the original announcement to five families and include \(\operatorname{AME}(15,18)\).</p>
 
 <h2>Five infinite families</h2>
 <p>For every <strong>odd prime power</strong> \(q\) in the indicated range, the construction gives an \(\operatorname{AME}(N,2q)\) state. Here \(K\) is the number of coupled binary branches.</p>
@@ -61,7 +61,7 @@ last_modified_at: 2026-10-25
 <h2>Contribution and context</h2>
 <p>The contribution is the explicit small binary ingredients, effective prime-power thresholds, exact certificates and symmetric realizations. Coupling has precedents in Shi–Zhang–Zhao–Li <a href="#ref-shi">[1]</a>, Atlas <a href="#ref-atlas">[2]</a> and Kitamura <a href="#ref-kitamura1110">[3]</a>; parent and code constructions are also drawn from Bevins–Bidav <a href="#ref-bevins">[4]</a> and Hontarenko–Życzkowski <a href="#ref-hontarenko">[5]</a>. The enlarged family is presented without a claim of publication priority. Bounds on the binary ingredients and on branch capacity concern this coupling mechanism; they do not establish unrestricted AME nonexistence.</p>
 
-<div class="notice"><strong>Manuscript in preparation.</strong> This update reflects the companion repository of 22 October 2026. The <a href="https://github.com/palashpandya/coupled-branch-ame">companion code and data</a> are currently private, at version 0.1 (pre-release). A public release and publication identifier will be linked when available.</div>
+<div class="notice"><strong>Preprint available.</strong> Palash Pandya, <em>Explicit Absolutely Maximally Entangled states in dimensions twice a prime power</em>, <a href="https://arxiv.org/abs/2611.17216">arXiv:2611.17216</a> (2026; revised 13 November). The <a href="https://github.com/palashpandya/coupled-branch-ame">companion code and exact-verification data</a> are public; the <a href="https://github.com/palashpandya/coupled-branch-ame/releases/tag/v1.0">v1.0 release</a> provides a stable snapshot.</div>
 
 <h2>Selected references and prior constructions</h2>
 <ol class="publication-list">
@@ -69,7 +69,7 @@ last_modified_at: 2026-10-25
 <li id="ref-atlas">Atlas. <a href="https://github.com/niketp03/atlas-fc-verified/blob/15e4b3a7584e218cec531aeaf71cce72a8a9ecb1/AtlasFCSolutions/Oqp35.lean">AME(9,10) construction</a>, pinned source.</li>
 <li id="ref-kitamura1110">Kitamura. <a href="https://github.com/KitaKen1/ame-11-10-lean/tree/6b7d009a43970587a3386b690221bec4339ce271">AME(11,10) construction</a>, pinned source.</li>
 <li id="ref-bevins">Bevins and Bidav. <a href="https://arxiv.org/abs/2608.05781v2">arXiv:2608.05781</a>. Parent and code constructions.</li>
-<li id="ref-hontarenko">Hontarenko and Życzkowski. <a href="https://arxiv.org/abs/2609.11796v1">arXiv:2609.11796</a>. Finite-field parent constructions.</li>
+<li id="ref-hontarenko">Hontarenko and Życzkowski. <a href="https://arxiv.org/abs/2609.11796">arXiv:2609.11796</a> (v2, 13 November 2026), <em>Absolutely Maximally Entangled States for Odd Prime Power Local Dimension</em>. Finite-field parent constructions.</li>
 <li id="ref-kitamura96">Kitamura. <a href="https://github.com/KitaKen1/ame-9-6-lean/tree/500ee827dffbeed9bb2ed502adcd6690943a7463">AME(9,6) construction</a>, pinned source used in the nine-party existence result.</li>
 <li id="ref-scott">A. J. Scott. <a href="https://arxiv.org/abs/quant-ph/0310137">Multipartite entanglement, quantum-error-correcting codes, and entangling power of quantum evolutions</a>. Background and binary AME bounds.</li>
 </ol>
