@@ -3,7 +3,7 @@ title: Publications
 description: Selected publications and research profiles.
 layout: default
 date_created: 2026-10-08
-last_modified_at: 2026-10-21
+last_modified_at: 2026-11-23
 permalink: /publications/
 ---
 <section class="page-head">
@@ -14,6 +14,16 @@ permalink: /publications/
 </section>
 <article class="prose">
 <ol class="publication-list">
+<li>
+<strong><a href="https://arxiv.org/abs/2611.17216">Explicit Absolutely Maximally Entangled states in dimensions twice a prime power</a></strong><br>
+Palash Pandya.<br>
+arXiv:2611.17216 (2026; v2, 13 November). <a href="https://arxiv.org/abs/2611.17216">Preprint ↗</a>
+</li>
+<li>
+<strong><a href="https://arxiv.org/abs/2610.16673">Euler's thirty-six officers need not all be entangled: real AME(4,6), families and classification</a></strong><br>
+Palash Pandya.<br>
+arXiv:2610.16673 (2026; v2, 16 November). <a href="https://arxiv.org/abs/2610.16673">Preprint ↗</a>
+</li>
 <li>
 <strong><a href="https://arxiv.org/abs/2602.08469">Classifying the simplest Bell inequalities beyond qubits and their applications towards self-testing</a></strong><br>
 Palash Pandya, Shubhayan Sarkar, and Remigiusz Augusiak.<br>
