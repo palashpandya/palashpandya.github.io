@@ -3,7 +3,7 @@ title: Real AME(4,6) states
 description: A real 60-term AME(4,6) construction, continuous families and a classification of real states.
 layout: default
 date_created: 2026-10-08
-last_modified_at: 2026-10-21
+last_modified_at: 2026-11-23
 permalink: /research/ame/real-ame46/
 ---
 <section class="page-head">
@@ -47,7 +47,7 @@ permalink: /research/ame/real-ame46/
 
 <p>The <a href="https://github.com/palashpandya/real-ame46/blob/main/README.md">updated technical report</a>, <a href="https://github.com/palashpandya/real-ame46/blob/main/paper/main.tex">manuscript source</a>, <a href="https://github.com/palashpandya/real-ame46/tree/main/results">verification results</a>, and <a href="https://github.com/palashpandya/real-ame46/tree/v1.0">version 1.0 of the companion code and data</a> are available on GitHub. Exact arithmetic establishes the state and the family relations; the classification also includes certified interval-arithmetic calculations.</p>
 
-<div class="notice"><strong>Preprint available.</strong> Palash Pandya, <em>Euler's thirty-six officers need not all be entangled: real AME(4,6), families and classification</em>, <a href="https://arxiv.org/abs/2610.16673">arXiv:2610.16673</a> (2026; submitted 12 October 2026).</div>
+<div class="notice"><strong>Preprint available.</strong> Palash Pandya, <em>Euler's thirty-six officers need not all be entangled: real AME(4,6), families and classification</em>, <a href="https://arxiv.org/abs/2610.16673">arXiv:2610.16673</a> (2026; v2 revised 16 November 2026).</div>
 
 <h2>Independent real AME(4,6) constructions</h2>
 <p>Independent real AME(4,6) constructions have also been reported in the following works:</p>
