@@ -3,7 +3,7 @@ title: Absolutely maximally entangled states
 description: Definitions and selected public research on AME states.
 layout: default
 date_created: 2026-10-08
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-25
 permalink: /research/ame/
 ---
 <section class="page-head">
@@ -23,6 +23,9 @@ permalink: /research/ame/
 <p>One diagnostic is the sum of squared deviations from maximal mixing across the relevant bipartitions:</p>
 <p>\[\mathcal L(\psi)=\sum_{|A|=\lfloor n/2\rfloor}\left\|\rho_A-\frac{I}{d^{|A|}}\right\|_F^2.\]</p>
 <p>For normalized pure states, \(\mathcal L(\psi)=0\) if and only if the state is AME. Finding low values numerically is not by itself an existence proof; careful validation is essential.</p>
+<h2>AME(13,26): thirteen 26-level systems (2026)</h2>
+<p>An explicit AME(13,26) state combines the binary Paley graph on thirteen vertices, a bipartite Cauchy phase over \(\mathbb F_{13}\), and Hermite coupling. Every six-party reduction is maximally mixed, with all 1,249,248 signed cancellation conditions verified exactly across 1,716 balanced cuts. This reaches local dimension 26 below the thirteen-party coupled-branch range. Research note, 25 November 2026; companion code and data are forthcoming.</p>
+<p><a class="link-arrow" href="{{ '/research/ame/ame-13-26/' | relative_url }}">Read the AME(13,26) research note →</a></p>
 <h2>Mixed-phase AME(9,6) and AME(7,6) states (2026)</h2>
 <p>A mixed binary/ternary phase constructor produces 313 exactly certified state records: 213 AME(9,6) states and 100 AME(7,6) states. Exact local-unitary invariants distinguish 19 seed-507 nine-party states and at least 99 seven-party classes. The project also gives explicit continuous families and studies which phase deformations preserve the AME conditions. Manuscript in preparation.</p>
 <p><a class="link-arrow" href="{{ '/research/ame/mixed-phase-ame6/' | relative_url }}">Read the mixed-phase research note →</a></p>

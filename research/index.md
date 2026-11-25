@@ -3,7 +3,7 @@ title: Research
 description: Research directions in quantum information and computation.
 layout: default
 date_created: 2026-10-08
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-25
 permalink: /research/
 ---
 <section class="page-head">
@@ -13,8 +13,9 @@ permalink: /research/
 </section>
 <section class="section">
 <p class="eyebrow">Research announcements · 2026</p>
-<h2>Recent preprints</h2>
+<h2>Recent research</h2>
 <ul class="text-list">
+<li><a href="{{ '/research/ame/ame-13-26/' | relative_url }}"><em>An absolutely maximally entangled state of thirteen 26-level systems</em></a> — research note (25 November 2026). An explicit AME(13,26) construction using a Paley graph, a bipartite Cauchy phase, and Hermite coupling, with exact checks on all 1,716 balanced cuts.</li>
 <li><a href="{{ '/research/ame/coupled-branch-families/' | relative_url }}"><em>Explicit Absolutely Maximally Entangled states in dimensions twice a prime power</em></a> — <a href="https://arxiv.org/abs/2611.17216">arXiv:2611.17216</a> (November 2026). Explicit coupled-branch families and the nine-party existence classification.</li>
 <li><a href="{{ '/research/ame/real-ame46/' | relative_url }}"><em>Euler's thirty-six officers need not all be entangled: real AME(4,6), families and classification</em></a> — <a href="https://arxiv.org/abs/2610.16673">arXiv:2610.16673</a> (October 2026; revised November).</li>
 </ul>

@@ -3,7 +3,7 @@ title: Quantum Information Research
 description: Palash Pandya — foundational quantum information, entanglement, nonlocality, and computational research.
 layout: default
 date_created: 2026-03-16
-last_modified_at: 2026-11-23
+last_modified_at: 2026-11-25
 ---
 <section class="hero">
 <p class="eyebrow">Foundational quantum information · Computational research</p>
@@ -12,6 +12,16 @@ last_modified_at: 2026-11-23
 <p class="lede">I am a postdoctoral researcher at the Centre for Theoretical Physics, Polish Academy of Sciences, in Warsaw. I study quantum information from mathematical and computational perspectives, with interests spanning entanglement, nonlocality, and optimization methods.</p>
 <div class="hero-actions"><a class="button" href="{{ '/research/' | relative_url }}">Explore research →</a><a class="link-arrow" href="{{ '/publications/' | relative_url }}">Selected publications ↗</a></div>
 </section>
+<div class="featured-research-grid">
+<article class="featured-research" aria-labelledby="featured-ame1326-title">
+<div class="featured-research-header">
+<p class="eyebrow">AME(13,26) · 25 November 2026</p>
+<p class="featured-research-status">Research note</p>
+</div>
+<h2 id="featured-ame1326-title">Thirteen maximally entangled 26-level systems</h2>
+<p>An explicit AME(13,26) state combines a Paley graph, a bipartite Cauchy phase, and Hermite coupling. Exact finite-field checks verify maximal mixing across all 1,716 balanced cuts, reaching local dimension 26 below the thirteen-party coupled-branch range.</p>
+<p class="featured-research-links"><a class="link-arrow" href="{{ '/research/ame/ame-13-26/' | relative_url }}">Read the AME(13,26) research note →</a></p>
+</article>
 <article class="featured-research" aria-labelledby="featured-mixed-phase-title">
 <div class="featured-research-header">
 <p class="eyebrow">Mixed-phase AME(9,6) and AME(7,6) · 2026</p>
@@ -21,6 +31,7 @@ last_modified_at: 2026-11-23
 <p>A mixed binary/ternary phase constructor gives 313 exactly certified state records in local dimension six. Exact local-unitary invariants distinguish classes, while explicit continuous families reveal deformations of seven- and nine-party AME states.</p>
 <p class="featured-research-links"><a class="link-arrow" href="{{ '/research/ame/mixed-phase-ame6/' | relative_url }}">Read the mixed-phase research note →</a></p>
 </article>
+</div>
 <div class="featured-research-grid">
 <article class="featured-research" aria-labelledby="featured-coupled-title">
 <div class="featured-research-header">
